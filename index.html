@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+
+                
+             
+
+    <header class="container uno">
+        <div class="row primero">
+            <div class=" col-xl-12 col-sm-12 col-md-12 medidas"><h1>Pseudoclases</h1></div>
+        </div>
+
+    </header>
+    <section class="container dos">
+        <div class="row segundo">
+            <div class="col-xl-3 col-sm-12 col-md-6 active">
+                <p>:active</p>
+                <p> representa un elemento (como un botón) que el usuario está activando.
+                     Cuando se usa un mouse, la "activación" generalmente comienza cuando el usuario presiona el botón primario del mouse
+                      y termina cuando se suelta. La pseudo-clase :active se usa comúnmente en los elementos y , pero también se puede usar en otros elementos.</p>
+                <a href="#">Este enlace cambiará a color lima mientras hace clic en él.</a>
+
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 checked">
+                <p>:checked</p>
+                <p>La pseudo-clase :checked de CSS representa cualquier radio input type="radio"> (en-US)), checkbox (input type="checkbox">) u option option>
+                     en un elemento select>) que está marcado o conmutado a un estado </p> 
+                    
+                        
+                      
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 default">
+                <p>:default</p>
+                <p>representa cualquier elemento de formulario que sea el predeterminado entre un grupo de elementos relacionados.
+                    <input type="radio" name="season" id="spring">
+<label for="spring">Spring</label>
+
+<input type="radio" name="season" id="summer" checked>
+<label for="summer">Summer</label>
+
+<input type="radio" name="season" id="fall">
+<label for="fall">Fall</label>
+
+<input type="radio" name="season" id="winter">
+<label for="winter">Winter</label>
+ </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 dir">
+                <p>:dir()</p>
+                <p>a pseudo-clase :dir() usa solo el valor semántico de la direccionalidad, es decir, el definido en el documento mismo.
+                     No tiene en cuenta la direccionalidad del estilo, es decir, la direccionalidad establecida por las propiedades de CSS como direction.
+                     <div dir="rtl">
+                        <span>test1</span>
+                        <div dir="ltr">test2
+                          <div dir="auto">ע</div>
+                        </div>
+                      </div>
+                       </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 disabled">
+                <p>:disabled</p>
+                
+                <p>a pseudo-clase :disabled de CSS representa a cualquier elemento deshabilitado. Un elemento
+                     se encuentra deshabilitado si no puede ser activado (por ejemplo ser selecionado, hacer click
+                      en él o aceptar texto de entrada) ni aceptar el foco. El elemento tiene además un estado habilitado en el cual puede ser activado o recibir foco.
+                      
+                        
+                       </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 empty">
+                <p>:empty</p>
+                <p>La pseudo-clase :empty de CSS representa cualquier elemento que no tenga hijos. 
+                    Los hijos pueden ser nodos de elemento o texto (incluido el espacio en blanco).
+                     Los comentarios o las instrucciones de procesamiento no afectan si un elemento se considera vacío.
+                     <div class="box"><!-- Voy a ser de color lima. --></div>
+                     <div class="box">Voy a ser de color rosa.</div>
+                     <div class="box">
+                         <!-- Seré de color rosa debido a los espacios en blanco alrededor de este comentario. -->
+                     </div>
+                      </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 enabled">
+                <p>:enabled</p>
+                <p>  también tiene un estado deshabilitado
+                       el en cuál, no puede ser activado ni acepta el foco.  <form action="url_of_form">
+                        <label for="FirstField">Primer campo (habilitado):</label>
+                        <input type="text" id="FirstField" value="Lorem"><br>
+                      
+                        <label for="SecondField">Segundo campo (deshabilitado):</label>
+                        <input type="text" id="SecondField" value="Ipsum" disabled="disabled"><br>
+                      
+                        <input type="button" value="Enviar">
+                      </form>
+                      </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 first">
+                <p>:first </p>
+                <p>La pseudo-clase :first de CSS, utilizada con la regla-at @page, representa la primera página de un documento impreso. <p>Primera página.</p>
+                <p>Segunda página.</p>
+                <button>Imprimir!</button>
+                
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 fchild">
+                <p>:first-child</p>
+                <p>representa el primer elemento entre un grupo de elementos hermanos.</p>
+                     <div>
+                        <p>¡Este texto está seleccionado!</p>
+                        <p>Este texto no está seleccionado.</p>
+                      </div>
+                      
+                       
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 ftype">
+                <p>:first-of-type</p>
+                <p>La pseudo-clase :first-of-type de CSS representa el primer elemento de su tipo entre un grupo de elementos hermanos.
+
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 full">
+                <p>:fullscreen</p>
+                <p>La pseudo-clase :fullscreen de CSS representa un elemento que se muestra cuando el 
+                    navegador está en modo de pantalla completa. 
+                    <div id="fullscreen">
+                        <h1>Demostración :fullscreen</h1>
+                        <p>Este texto se pondrá grande y rojo cuando el navegador esté en modo de pantalla completa.</p>
+                        <button id="fullscreen-button">Entrar en pantalla completa</button>
+                      </div>
+                      </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 focus">
+                <p>:focus</p>
+                <p>La pseudo-clase :focus CSS representa un elemento (como una entrada de formulario) 
+                    que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, 
+                    toca un elemento o lo selecciona con la tecla "Tab" del teclado.
+                    <input class="red-input" value="Voy a ser de color rojo cuando enfoque."><br>
+                    <input class="blue-input" value="Voy a ser de color azul cuando enfoque.">
+                    </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 hover">
+                <p>:hover</p>
+                <p>La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 inde">
+                <p>:indeterminate</p>
+                <p>La pseudo-clase :focus-visible se aplica mientras un elemento coincide 
+                    con la pseudo-clase :focus y el UA (Agente de Usuario (en-US)) determina 
+                    mediante heurística que el foco debe hacerse evidente en el elemento.
+                     (Muchos navegdores muestras un "anillo de enfoque" por defecto en este caso.
+                    
+                    </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 range">
+                <p>:in-range</p>
+                <p>La pseudo-clase (en-US) :in-range de CSS representa un elemento input cuyo valor actual se encuentra dentro de los límites de rango especificados por los atributos min y max.</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 invalid">
+                <p>:invalid</p>
+                <p>La pseudo-clase :invalid de CSS representa cualquier elemento input u otro elemento form> cuyos contenidos no se puedan validar (en-US).</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 lang">
+                <p>:lang</p>
+                <p>La pseudo-clase :lang() de CSS es utilizada para modificar elementos 
+                    en función del idioma en el que se determina que están.
+                    <div lang="en"><q>Esta cita en inglés tiene una cita <q>anidada</q> adentro.</q></div>
+<div lang="fr"><q>Esta cita en francés tiene una cita <q>anidada</q> adentro.</q></div>
+<div lang="de"><q>Esta cita en aleman tiene una cita <q>anidada</q> adentro.</q></div>
+
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 last">
+                <p>:last-child </p>
+                <p>La pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 lasty">
+                <p>:last-of-type </p>
+                <p>La pseudo-class :last-of-type de CSS representa el último elemento de su tipo entre un grupo de elementos hermanos.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 left">
+                <p>:left </p>
+                <p>La :left CSS pseudo-clase, utilizada con la regla @page at, representa todas las páginas de la izquierda de un documento impreso.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 link">
+                <p>:link </p>
+                <p>La pseudo-clase :link CSS representa un elemento que aún no se ha visitado. Coincide con cada elemento no visitado a, area, o link que tiene un atributo href.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 not">
+                <p>:not()</p>
+                <p>La pseudoclase :not() de CSS representa elementos que no coinciden con una lista de selectores. Como evita que se seleccionen elementos específicos, se lo conoce como la pseudoclase de negación.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 nth">
+                <p>:nth-child </p>
+                <p>La pseudo-clase :nth-child() de CSS coincide con uno o más elementos en función de su posición entre un grupo de hermanos.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 nlch">
+                <p>:nth-last-child</p>
+                <p>La pseudo-clase :nth-last-child() de CSS selecciona uno o más elementos en función de su posición entre un grupo de hermanos, contando desde el final.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 nltype">
+                <p>:nth-last-of-type()</p>
+                <p>La pseudo-clase :nth-last-of-type() CSS coincide con uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos, contando desde el final.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 noft">
+                <p>:nth-of-type</p>
+                <p>LLa pseudo-clase :nth-of-type() de CSS selecciona uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos.
+                </p>
+            </div>
+            
+            <div class="col-xl-3 col-sm-12 col-md-6 onlyc">
+                <p>:only-child</p>
+                <p>La pseudo-clase (en-US) :only-child de CSS representa un elemento sin hermanos. Esto es lo mismo que :first-child:last-child o :nth-child(1):nth-last-child(1), pero con una especificidad menor.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 onftype">
+                <p>:only-of-type</p>
+                <p>La pseudo-clase :only-of-type CSS representa un elemento que no tiene hermanos del mismo tipo
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 opt">
+                <p>:optional</p>
+                <p>La pseudo clase optional representa cualquier elementoque no 
+                    tenga el atributo
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 outr">
+                <p>:out-of-range </p>
+                <p>representa un elemento input cuyo valor actual está fuera de los límites de rango especificados por los atributos min y max.
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 readon">
+                <p>:read-only</p>
+                <p>representa un elemento que ya no es editable por el usuario (como un input).
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 rwrite">
+                <p>:read-write</p>
+                <p>representa un elemento que es editable por el usuario
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 req">
+                <p>:required</p>
+                <p> representa cualquier elemento input, select, o textarea que tenga el atributo required establecido en él.</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 rght">
+                <p>:right</p>
+                <p> representa todas las páginas de la derecha de un documento impreso.</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 root">
+                <p>:root</p>
+                <p> selecciona el elemento raíz de un árbol que representa el documento. En HTML, :root representa el elemento html y es idéntico al selector html, excepto que su especificidad es mayor.</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 sco">
+                <p>:scope</p>
+                <p> representa elementos que son un punto de referencia para que coincidan los selectores</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 targ">
+                <p>:target</p>
+                <p> representa un elemento único (el elemento objetivo) con un id que coincide con el fragmento de la URL.</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 val">
+                <p>:valid</p>
+                <p> representa cualquier elemento input u otro elemento form cuyo contenido 
+                    se valide (en-US) satisfactoriamente. Esto permite que los campos válidos 
+                    adopten fácilmente una apariencia que ayuda al usuario a confirmar que sus dato
+                    s están formateados correctamente.
+                    <a href="#test-visited-link">¿Ya has visitado este enlace?</a><br>
+                    <a href="">Ya has visitado este enlace.</a>
+                    
+                </p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 vis">
+                <p>:visited</p>
+                <p> representa enlaces que el usuario ya ha visitado. Por motivos de privacidad, los estilos que se pueden modificar con este selector son muy limitados.</p>
+            </div>
+            <div class="col-xl-3 col-sm-12 col-md-6 llink">
+                <p>:local-link</p>
+                <p> represents a link to the same document. Therefore an element that 
+                    is the source anchor of a hyperlink whose target's absolute URL matches the
+                     element's own document URL.
+                     <a href="#ordinary-target">Este es un enlace ordinario.</a><br>
+                     <a href="">Ya has visitado este enlace.</a><br>
+                     <a>Enlace de marcador de posición (no se personalizará)</a>
+                     </p>
+            </div>
+           
+            
+            
+            
+            
+            
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ <script src="js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>

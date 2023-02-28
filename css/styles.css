@@ -1,0 +1,852 @@
+* {
+ box-sizing: border-box;   
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+}
+.uno{
+    height: 4rem;
+    width: 100%;
+    background-color: blue;
+    display: flexs;
+}
+.primero{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(112, 235, 100);
+
+}
+.medidas{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.dos{
+   height: 100vh;
+    width: 100%;
+    display: flex;
+    
+ 
+}
+.segundo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+.active{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+ a:link { color: blue; }          /* Enlaces no visitados */
+a:visited { color: purple; }     /* Enlaces visitados */
+a:hover { background: yellow; }  /* El usuario esta sobre el enlace */
+a:active { color: lime; }        /* Enlaces activos */
+
+.active p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color: blueviolet;
+
+}
+
+.checked{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    inset:default {
+        box-shadow: 0 0 2px 1px coral;
+      }
+      
+      input:default + label {
+        color: coral;
+      }
+      
+    
+}
+
+
+.checked p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+    
+}
+.default{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.default p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color: purple;
+    
+}
+.dir{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dir p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:plum
+    
+    
+    :dir(ltr) {
+        background-color: yellow;
+      }
+      
+      :dir(rtl) {
+        background-color: powderblue;
+      }
+      
+    
+}
+.disabled{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+   
+      
+    
+}
+.disabled p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:yellowgreen
+    
+}
+.empty{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    .box {
+        background: pink;
+        height: 80px;
+        width: 80px;
+      }
+      
+      .box:empty {
+        background: lime;
+      }
+      
+}
+.empty p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:darkred
+    
+}
+.enabled{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.enabled p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:tomato
+    
+}
+.enabled{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.enabled p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:tomato
+    
+}
+.first{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.first p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:teal
+    color: lime;
+    background-color: black;
+    padding: 5px;
+
+    
+      
+    
+}
+.fchild{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fchild p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:palevioletred
+    
+}
+.ftype{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ftype p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:cornflowerblue
+    
+}
+.full{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.full p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:crimson
+
+    #fullscreen:fullscreen {
+        padding: 42px;
+        background-color: pink;
+        border:2px solid #f00;
+        font-size: 200%;
+      }
+      
+      #fullscreen:fullscreen > h1 {
+        color: red;
+      }
+      
+      #fullscreen:fullscreen > p {
+        color: darkred;
+      }
+      
+      #fullscreen:fullscreen > button {
+        display: none;
+      }
+      
+    
+}
+.focus{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .red-input:focus {
+        background-color: yellow;
+        color: red;
+      }
+      
+      .blue-input:focus {
+        background: yellow;
+        color: blue;
+      }
+      
+}
+.focus p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:darkgray
+    
+}
+.hover{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hover p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:fuchsia
+    
+}
+.inde{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inde p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:goldenrod
+
+      
+    
+}
+.range{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.range p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:y+hotpink
+    
+}
+.invalid{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.invalid p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:lawngreen
+    
+}
+.lang{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    :lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > q { quotes: '« ' ' »'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
+
+}
+.lang p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:black
+    
+}
+.last{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.last p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:navy
+    
+}
+.lasty{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.lasty p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:maroon
+    
+}
+.left{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.left p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:midnightblue
+    
+}
+.link{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.link p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:mediumvioletred
+
+    a:link {
+        background-color: gold;
+        color: green;
+      }
+      
+    
+}
+.not{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.not p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:royalblue
+    
+}
+.nth{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nth p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:rebeccapurple
+    
+}
+.nlch{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nlch p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:brown
+    
+}
+.nltype{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nltype p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:blueviolet
+    
+}
+.noft{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.noft p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:chocolate
+    
+}
+.onlyc{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.onlyc p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:chocolate
+    
+}
+.onftype{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.onftype p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:chocolate
+    
+}
+.opt{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.opt p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:coral
+    
+}
+.outr{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.outr p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:black
+    
+}
+.readon{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.readon p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:darkgreen
+    
+}
+.rwrite{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rwrite p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:red
+    
+}
+.req{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.req p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:olive
+    
+}
+.rght{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rght p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color: orangered;
+    
+}
+.root{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.root p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:lightcoral
+    
+}
+.sco{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sco p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:blue
+    
+}
+.targ{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.targ p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:brown
+    
+}
+.val{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.val p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:navy
+    
+}
+.vis{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        /* Especifique los valores predeterminados no transparentes a ciertas propiedades,
+           lo que les permite ser diseñado con el estado :visited */
+        background-color: white;
+        border: 1px solid white;
+      }
+      
+      a:visited {
+        background-color: yellow;
+        border-color: hotpink;
+        color: hotpink;
+      }
+      
+}
+.vis p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:orange
+    
+}.llink{
+    display: flex;
+     height: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.llink p:first-child{
+    font-size: 150%;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    color:blue
+    
+}
+
+
+
+
+
+
+
+
